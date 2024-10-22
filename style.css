@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    background: #658dc2;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: rgb(148, 160, 197);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #010302;
+}
+
+#contatoForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#contatoForm input, #contatoForm textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button {
+    background: #658dc2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: 
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+#blog {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+#blog article {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#blog h3 {
+    margin: 0 0 10px 0;
+}
+
